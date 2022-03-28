@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272425"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:text=""/>
+
+    <ImageView
+        android:id="@+id/imgWelcome"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/math_wallpaper"
+        android:contentDescription="1st page Image" />
+
+    <Button
+        android:id="@+id/btnNewGame"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/new_game"
+        android:layout_below="@+id/imgWelcome"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#323030"
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnGameRules"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Game Rules"
+        android:layout_below="@+id/imgWelcome"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#323030"
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/about"
+        android:layout_below="@+id/btnNewGame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#323030"
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+
+</RelativeLayout>

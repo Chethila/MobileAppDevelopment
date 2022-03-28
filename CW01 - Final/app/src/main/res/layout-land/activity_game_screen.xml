@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameScreen">
+
+    <TextView
+        android:id="@+id/txtTimer"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="600dp"
+        android:text=""
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_light"/>
+
+    <TextView
+        android:id="@+id/txtTimerIntro"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="520dp"
+        android:text="@string/timer"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_light"/>
+
+    <TextView
+        android:id="@+id/txtIntroduction"
+        android:layout_width="600dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtTimer"
+        android:layout_marginTop="5dp"
+        android:text="@string/introductionText"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtLeftExpression"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtIntroduction"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtRightExpression"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtIntroduction"
+        android:layout_marginStart="480dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/btnGreater"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtLeftExpression"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/greater"
+        android:textSize="17sp"
+        android:backgroundTint="#3E3838"
+        android:textColor="#00FF0A"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnEqual"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="@string/equal"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtLeftExpression"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="300dp"
+        android:backgroundTint="#3E3838"
+        android:textColor="#00FF0A"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnLess"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="@string/less"
+        android:textSize="17sp"
+        android:layout_below="@+id/txtLeftExpression"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="500dp"
+        android:backgroundTint="#3E3838"
+        android:textColor="#00FF0A"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtAnswer"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnEqual"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/txtAnswerInfo"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/txtAnswer"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="-35dp"
+        android:text="@string/answer_info"
+        android:textColor="@android:color/black"
+        android:textStyle="italic|bold" />
+
+
+</RelativeLayout>

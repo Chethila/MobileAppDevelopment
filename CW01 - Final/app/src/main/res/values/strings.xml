@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CW 01</string>
+    <string name="new_game">New Game</string>
+    <string name="about">About</string>
+    <string name="about_pledge">Student Name: L.C.Mallawaarachchi \nStudent Id: 20200534 \n\nI confirm that I understand what plagiarism is and have read and understood the section on Assessment Offences in the Essential Information for Students. The work that I have submitted is entirely my own. Any work from other authors is duly referenced and acknowledged.</string>
+    <string name="image_about">image About</string>
+    <string name="introductionText">*Compare the left expression value with the right expression value.</string>
+    <string name="greater">GREATER</string>
+    <string name="equal">==</string>
+    <string name="less">LESS</string>
+    <string name="answer_info">The Previous Answer is :-</string>
+    <string name="game_instructions">Game Instructions :- \n\n*Compare the left expression value with the right expression value.\n\n *Soon after you click a button it will show whether the answer is correct or wrong.\n\n *You have 50 seconds of time to interact with the game. After 50 seconds the game will stop automatically.\n\n *For every correct 5 answers you\'ll get additional 10 seconds to interact with the game.\n\n *End of the game you\'ll get the number of correct answers that you have given.</string>
+    <string name="btn_start">start</string>
+    <string name="your_score_is">Your Score is :-</string>
+    <string name="game_over">Game Over</string>
+    <string name="timer">Timer :</string>
+</resources>
